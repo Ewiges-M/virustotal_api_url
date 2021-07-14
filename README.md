@@ -6,8 +6,8 @@ The program will loop to check each URL with Virustotal and store result to "res
 "result-from-virustotal.csv" file contain fields of
 
 1. IP : IP or URL
-2. Positives : number of tools deteced by virustotal
-3. Totals : totals score
+2. Positives : number of tools detected URL as malware, malicious or suspicious.
+3. Totals : total tools detected URL
 4. Detected as Malware site : List tools that detected IP/URL as Malware site
 5. Detected as Malicious site : List tools that detected IP/URL as Malicious site
 6. Detected as Suspicious site : List tools that detected IP/URL as Suspicious site
