@@ -32,13 +32,10 @@ def connectToVirustotal(ip):
                     resultScan = detected_tools[key]['result']
                     if resultScan == 'malware site':
                         detected_as_malware_site.append(key)
-                        # print("Malware site "+key)
                     elif resultScan == 'malicious site':
                         detected_as_malicious_site.append(key)
-                        # print("Malicious site "+ key)
                     elif resultScan == 'suspicious site':
                         detected_as_suspicious_site.append(key)
-                        # print("Suspicious site "+ key)
                 data = [ip,positives_tools,total_tools,', '.join(detected_as_malware_site),', '.join(detected_as_malicious_site),', '.join(detected_as_suspicious_site)]
                 total_data_to_csv.append(data)
             else:
@@ -55,10 +52,8 @@ def writeToFile():
         print("writing data to file result-from-virustotal.csv ...")
         writer = csv.writer(f)
 
-        # write the header
         writer.writerow(header)
 
-        # write multiple rows
         writer.writerows(total_data_to_csv)
     print("Succussful write data to file result-from-virustotal.csv")
     
