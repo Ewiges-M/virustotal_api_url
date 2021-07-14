@@ -38,4 +38,5 @@ https://support.virustotal.com/hc/en-us/articles/115002100149-API
 **Note**
 
 - This program made for Public Virustotal API.
-- The Public Virustotal API is limited to 500 requests per day and a rate of 4 requests per minute. (That why I need to sleep 1 minute for each 4 requests )
+- The Public Virustotal API is limited to 500 requests per day and a rate of 4 requests per minute. (That why I need to sleep 1 minute for each 4 requests ).
+- Some IP was not present in VirusTotal's dataset, result in excel file is "N/A"
