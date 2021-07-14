@@ -1,4 +1,4 @@
-# virustotal_api_url
+# virustotal_api_url_check
 Check multiple URL with Virustotal Api
 
 The program will loop to check each URL with Virustotal and store result to "result-from-virustotal.csv" file.
