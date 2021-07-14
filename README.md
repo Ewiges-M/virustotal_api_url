@@ -1,2 +1,2 @@
 # virustotal_api_url
-Check multiple URL with Virustotal
+Check multiple URL with Virustotal Api
