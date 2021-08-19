@@ -13,9 +13,9 @@ The program will loop to check each URL with Virustotal and store result to "res
 6. Detected as Suspicious site : List tools that detected IP/URL as Suspicious site
 
 **Usage**
-
+```
 python3 virustotal_api_check_urls.py
-
+```
 ![image](https://user-images.githubusercontent.com/70726596/125559042-4293be2c-e799-4838-aafe-3506c27a000f.png)
 
 
